@@ -1,8 +1,52 @@
 <html>
 <head>
+
+    <link rel="stylesheet" href="style.css"/>
     <title>MIS 3033 October 9 Cole Smallwood</title>
+
+    <style>
+        #div2{
+            background-color:blueviolet;
+        }
+        #div3 {
+            background-color: yellow;
+        }
+        #div4 {
+            background-color: green;
+        }
+        #div5 {
+            background-color: darkred;
+        }
+        #div6{
+            background-color: wheat;
+        }
+    </style>
 </head>
 <body>
+
+    <span class="titleStyle">Box sizing</span>
+    <div style="color:black;padding-left:20px;box-sizing:content-box" class="divstyle1 titleStyle">div1</div>
+    <div style="padding-left:20px;box-sizing:border-box" class="divstyle1 titleStyle">div2</div>
+    <br />
+
+    <span class="titleStyle">CSS selectors</span>
+
+    <div id="main" style="position:relative;  background-color:blue;height:400px;">
+    <div style="position:sticky;top:3px;" id="div1">div1</div>
+    <div id="div2">div2</div>
+    <div id="div3">div3</div>
+    <div style="position:absolute;right:0;top:0" id="div4">div4</div>
+    <div style="position:relative;left:10px;top:10px;" id="div5">div5</div>
+    <div id="div6">div6</div>
+
+        <div id="menu" style="position:fixed;right:0;top:100px;width:50px;height:60px;background-color:green;">
+            option1 <br />
+            option2 <br />
+            option3 
+        </div>
+    </div>
+
+
 
     <div style="width: 200px;height:100px;background-color:deepskyblue;margin-left:50px;padding-top:20px;padding-left:30px;">
         div1
