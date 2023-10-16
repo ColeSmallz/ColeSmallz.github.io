@@ -5,20 +5,64 @@
     width:1000px;
 
 }
+#header_div{
+    display:flex;
+    justify-content: center;
+    align-items:center;
 
-#body_div{
+
+    flex-direction:row;
+    font-size:30pt;
+    font-weight:bold;
+    color:dodgerblue;
+    text-transform:uppercase;
+
+}
+#img_1{
+    height:100px;
+}
+#body_div {
     display: flex;
     flex-direction: row;
-
-    background-color:greenyellow;
+    background-color: greenyellow;
 }
-
 #left_div{
 
-  background-color:red;
+  background-color:cyan;
+  display:flex;
+  flex-direction:column;
 
 }
+#up_Div{
+    width:480px;
+    background-color:yellow;
 
+    border-style:solid;
+    border-width:2px;
+    border-color:darkgray;
+    border-radius: 10px;
+}
+#title_1{
+    font-size: 20px;
+    font-weight:bold;
+    background-color:lightskyblue;
+    border-radius:5px;
+}
+#title_2 {
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+#down_Div {
+    width: 480px;
+    background-color: purple;
+
+    
+    border-style: solid;
+    border-width: 2px;
+    border-color: darkgray;
+    border-radius: 10px;
+}
 #right_div {
     display: flex;
     flex-direction:column;
@@ -31,17 +75,14 @@
     background-color: sandybrown;
 
 }
-
 img{
     width:400px;
 }
-
 #slogan{
     font-size: 20pt;
     font-weight:bold;
     color:dodgerblue;
 }
-
 #footer_div {
     display: flex;
     justify-content: center;
@@ -53,7 +94,6 @@ img{
     background-color:aliceblue;
     height: 50px;
 }
-
 #maindiv {
     margin-top:50px;
     display: flex;
@@ -64,7 +104,6 @@ img{
     width: 800px;
     height: 500px;
 }
-
 .d1 {
     width: 100px;
     height: 120px;
