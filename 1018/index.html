@@ -1,28 +1,13 @@
 <html>
 <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>MIS 3033 Oct 18 Cole Smallwood</title>
-    <style>
-        #main{
-            background-color:limegreen;
-            width:600px;
-            display: flex;
-            flex-direction: row;
-        }
-        .divstyle{
-            background-color: fuchsia;
-            height:400px;
-            width:300px;
-            border-style:solid;
-        }
-        .divstyle2{
-            background-color:aqua;
-            border-style: dashed;
-            height:200px;
-
-        }
-    </style>
+    <script src="script.js"></script>
 </head>
 <body>
+    <input id="input1" type="text" placeholder="Your name" />
+    <button id="btn">Submit</button>
+    <div id="d1"></div>
     <div id="main">
         <div id="left" class="divstyle">div1</div>
         <div id="right" class="divstyle">
@@ -32,12 +17,6 @@
             <div id="down" class="divstyle2">
                 down
             </div>
-            
-            <script>
-                "use strict";
-                document.querySelector("#down").innerHTML = "DOWN";
-            </script>
-
 
         </div>
     </div>
