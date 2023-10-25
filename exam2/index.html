@@ -1,15 +1,200 @@
-<html >
+<html>
 <head>
-    <title>[Exam code] Cole Smallwood Exam 2</title>
+    <title>[CEXP] Cole Smallwood Exam 2</title>
+    <style>
+        #main_body_container {
+            margin: 0 auto;
+            width: 800px;
+        }
+
+        #about_exam {
+            display: flex;
+            flex-direction: row;
+          
+        }
+
+        #abt1 {
+            height: 70px;
+            width: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-style: solid;
+            border-width: 1px;
+            border-color: lightgrey;
+            border-radius: 5px;
+            
+        }
+
+        #exam_code {
+            height: 70px;
+            width: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-style: solid;
+            border-width: 1px;
+            border-color: lightgrey;
+            border-radius: 5px;
+            margin-left: 15px;
+         
+        }
+
+        #header {
+            display: flex;
+            flex-direction: row;
+            border-style: solid;
+            border-width: 1px;
+            border-color: lightgrey;
+            border-radius: 5px;
+        }
+
+        #abt_student {
+            display: flex;
+            flex-direction: row;
+            margin-left: 3px;
+        }
+
+        #profile_pic {
+            height: 60px;
+            border-radius: 50%;
+        }
+
+        #main_content {
+            display:flex;
+            flex-direction:row;
+        }
+
+        #left {
+            display: flex;
+            flex-direction: column;
+/*            width: 510px;
+            height: 110px;*/
+        }
+        #bottom {
+            border-style: solid;
+            border-width: 1px;
+            border-color: lightgrey;
+            border-radius: 5px;
+            width: 510px;
+            height: 160px;
+        }
+
+        #acheive_imgs{
+            display:flex;
+            flex-direction:row;
+            align-content:center;
+            justify-content:center;
+
+        }
+
+        #right {
+            display: flex;
+            flex-direction: column;
+            width: 280px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: lightgrey;
+            border-radius: 5px;
+        }
+
+        #top {
+            width: 510px;
+            height: 110px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: lightgrey;
+            border-radius: 5px;
+        }
+
+        #footer {
+            height: 60px;
+            font-weight: bold;
+            font-size: 20px;
+            color: grey;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-style: solid;
+            border-width: 1px;
+            border-color: lightgrey;
+            border-radius: 5px;
+        }
+     
+    </style>
 </head>
 <body>
-    <img src="static/head1.png" style="height:100px"/>
-    <img src="static/head2.png" style="height:100px"/>
-    <img src="static/linkedin.png" style="height:100px"/>
-    <img src="static/html.svg" style="height:100px"/>
-    <img src="static/css.svg" style="height:100px"/>
-    <img src="static/javascript.svg" style="height:100px"/>
-    <img src="static/sqlite.svg" style="height:100px"/>
-    <img src="static/logo.svg" style="height:100px"/>
+    <div id="main_body_container">
+
+        <div id="about_exam">
+            <div id="abt1">
+                MIS 3033 Exam 2
+                <br />
+                Cole Smallwood
+            </div>
+
+            <div id="exam_code">
+                CEXP
+            </div>
+        </div>
+
+        <div id="header">
+            <div id="abt_student">
+                <img src="static/head1.png" id="profile_pic" />
+                <div style="margin-left:10px;margin-top:10px;">
+                    Cole Smallwood <br />
+                    MIS Student
+                </div>
+                <div style="display:flex;justify-content:center;align-items:center;margin-left:20px;">
+                    <a src="https://www.linkedin.com/">
+                        <img src="static/linkedin.png" style="width:30px;" />
+                    </a>
+                </div>
+            </div>
+        </div>
+       
+        <div id="main_content">
+
+
+
+            <div id="left">
+
+                <div id="top">
+                    <span style="text-transform:uppercase;background-color:lightskyblue;border-radius:5px;">About Me:</span><br />
+                    I am a MIS student. I like programming and I am good at C#. I leaned Entity Framework for Database Manipulations. I know HTML, CSS and I started to learn JavaScript. It is fun. Later I will learn C# .NET MVC Dynamic Web App development and Web API development.
+                </div>
+                <div id="bottom">
+                    <span style="text-transform:uppercase;background-color:lightskyblue;border-radius:5px;">Acheivements</span><br />
+                    <div id="acheive_imgs">
+                        <img src="static/html.svg" style="height:100px" />
+                        <img src="static/css.svg" style="height:100px" />
+                        <img src="static/javascript.svg" style="height:100px" />
+                    </div>
+
+                </div>
+            </div>
+            <div id="right" >
+                <span style="text-transform:uppercase;background-color:lightskyblue;border-radius:5px;">Recent News: </span><br />
+                <ul>
+                    <li>Learned C#</li>
+                    <li>Learned Entity framework</li>
+                    <li>Learned <img src="static/sqlite.svg" style="height:40px;" /></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div id="footer" >
+            Developed by Cole Smallwood for MIS 3033 Exam 2 <img src="static/logo.svg" style="height:50px" />
+        </div>
+    </div>
+
+
 </body>
 </html>
+
+
+
+
+
+
